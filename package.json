@@ -13,6 +13,8 @@
     "build": "webpack --mode production"
   },
   "devDependencies": {
+    "@types/core-js": "^2.5.3",
+    "@types/file-saver": "^2.0.1",
     "awesome-typescript-loader": "^5.2.1",
     "connect-busboy": "0.0.2",
     "cors": "2.8.5",
@@ -33,5 +35,19 @@
     "webpack": "^4.38.0",
     "webpack-cli": "^3.3.6",
     "webpack-dev-server": "^3.7.2"
+  },
+  "dependencies": {
+    "@types/react": "^16.9.43",
+    "@types/react-dom": "^16.9.8",
+    "@types/react-redux": "^7.1.9",
+    "@types/react-router-dom": "^5.1.5",
+    "axios": "^0.19.2",
+    "file-saver": "^2.0.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "redux": "^4.0.5",
+    "redux-saga": "^1.1.3"
   }
 }
